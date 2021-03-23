@@ -1,0 +1,49 @@
+{
+ "creation": "2021-03-23 20:47:40.365290",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_id",
+  "full_name",
+  "birthdate",
+  "age"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student ID"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "birthdate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Birthdate"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-03-23 20:57:58.628059",
+ "modified_by": "Administrator",
+ "module": "school",
+ "name": "List of Students",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
